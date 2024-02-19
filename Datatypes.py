@@ -2,7 +2,7 @@ i = 10
 print(i, type(i)) # 10 <class 'int'>
 
 j = 14.3
-print(j, type(i))     #14.3 <class 'int'>
+print(j, type(j))      #14.3 <class 'float'>
  
 b = True
 print(b, type(b)) 
