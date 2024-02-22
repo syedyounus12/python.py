@@ -73,20 +73,33 @@
     
     # task5
     
-emp_salary = float(input("Enter your salary: "))
-match emp_salary: 
+# emp_salary = float(input("Enter your salary: "))
+# match emp_salary: 
         
-    case 30000: print("NO Tax Deduction")   
+#     case 30000: print("NO Tax Deduction")   
     
-    case 40000: print(" Tax Deduction")  
-     
-    case 50000: print(" Tax Deduction")  
+#     case 40000: print(" Tax Deduction")  
+
+#     case 50000: print(" Tax Deduction")  
       
-    case 60000: print(" Tax Deduction")
+#     case 60000: print(" Tax Deduction")
     
-    case _ : print("invalied")  
+#     case _ : print("invalied")  
     
-    
+emp_salary = float(input("Enter your salary"))
+
+# if emp_salary <= 30000:
+#     print("no tax deduction")
+# elif emp_salary <= 40000:
+#   print("tax deduction")
+# elif emp_salary <= 50000:
+#     print("tax deduction")
+# elif emp_salary <= 60000:
+#     print("tax deduction")
+# elif emp_salary <= 70000:
+#     print("tax deduction")
+# else:
+#     print("invalid value")
     
     
     
