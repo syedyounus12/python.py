@@ -23,17 +23,22 @@
 
 # for i in list[10, 20, 30, "younus"]:
 #    print(i)
+
 # for i in [10, 20, 30, 40]:
 #     print(i)
+
 # for i in [10, 20, 30, 'younus']:
 #     print(i)
+
 # for i in tuple[10, 20, 30]:
 # #     print(i)
+
 # for i in (10, 20, 30):
+# #     print(i)
+
+# d1 = {1: 10, 2: 20, 3: 30, 4: 40}
+# for i in d1.keys():
 #     print(i)
-d1 = {1: 10, 2: 20, 3: 30, 4: 40}
-for i in d1.keys():
-    print(i)
-for i in d1.values():
-    print(i)
+# for i in d1.values():
+#     print(i)
     
