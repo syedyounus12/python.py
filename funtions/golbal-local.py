@@ -82,13 +82,17 @@ def login():
     
     def sales():
         print("sales")
-        sales()
+        print(globals()["login()"])
+        
+    sales()
     def support():
         print("support")
-        support()
+    support()
+    
     def developer():
         print("developer")
-        developer()
+        
+    developer()
         
         
 login()
